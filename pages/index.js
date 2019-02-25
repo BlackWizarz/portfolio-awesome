@@ -34,7 +34,7 @@ class Index extends React.Component {
         const { userData, initialData } = this.props
         return (
             <BaseLayOut>
-                <p>This is a root(index) pages</p>
+                <p>This is a root(index) pages, and I was updated</p>
                 <h2>{userData.title}</h2>
                 <h2>{initialData}</h2>
                 <button onClick={() => { this.setState({hello: 'HelloWorld'})}}>Change Title</button>
